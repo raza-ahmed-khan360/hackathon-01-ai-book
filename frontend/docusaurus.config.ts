@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://myaibook-indol.vercel.app', // Replace with your GitHub Pages URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/hackathon-01-ai-book/',
+  baseUrl: 'https://myaibook-indol.vercel.app/hackathon-01-ai-book/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
