@@ -1,55 +1,44 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: N/A → 1.0.0
+Added sections: All principles and sections for Physical AI & Humanoid Robotics Book project
+Removed sections: None (new constitution)
+Modified principles: N/A (new constitution)
+Templates requiring updates: ⚠ pending - .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md
+Follow-up TODOs: None
+-->
+
+# Physical AI & Humanoid Robotics Book Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Specification-First, AI-Assisted Authorship
+All content creation follows specification-driven approach with AI assistance; Content must be planned via specs before writing; Use Claude Code and Spec-Kit Plus for content generation and refinement
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Technical Accuracy and Verifiability
+All factual and architectural claims must be verifiable from official documentation and primary technical sources; Prefer authoritative sources over secondary interpretations; All technical examples must be reproducible
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Reproducible Systems and Architectures
+All code examples and system architectures must be reproducible with clear, step-by-step instructions; Configuration examples must work in clean environments; Clear separation of content, specs, and infrastructure
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Clear, Structured Instructional Writing
+Content must follow clear pedagogical structure with learning objectives, examples, and practical applications; Use consistent terminology throughout; Maintain British English spelling and grammar standards
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Production-Ready Deployment Mindset
+All examples and implementations must consider production deployment scenarios; Include operational concerns like monitoring, error handling, and maintainability; Focus on GitHub Pages deployment with automated pipelines
 
-### [PRINCIPLE_6_NAME]
+### Integrated RAG Chatbot Excellence
+The embedded RAG chatbot must provide accurate responses strictly limited to indexed book content; Built with FastAPI backend, Qdrant Cloud vector store, and Neon Serverless Postgres for metadata; Must support book-wide, section-specific, and user-selected text queries
 
+## Technical Standards and Constraints
 
-[PRINCIPLE__DESCRIPTION]
+Format: Docusaurus documentation site; Deployment: GitHub Pages; Content authored via Spec-Kit Plus; Writing refined via Claude Code; Prefer official documentation and primary technical sources; Modular, spec-compatible structure with strong alignment between content and retrieval indexing
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Development Workflow and Quality Gates
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Content creation follows spec-driven approach using Spec-Kit Plus tools; All changes must maintain traceability from specs to content; Automated deployment pipeline required; Regular verification of RAG response accuracy against source content
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+All content changes must verify compliance with specification requirements; Complexity must be justified with clear learning objectives; Use Docusaurus documentation guidelines for content structure; All PRs must verify content-index alignment for RAG functionality
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-25 | **Last Amended**: 2025-12-25
