@@ -22,7 +22,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-username', // Usually your GitHub org/user name.
+  organizationName: 'raza-ahmed-khan360', // Usually your GitHub org/user name.
   projectName: 'hackathon-01-ai-book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -44,7 +44,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/hackathon-01-ai-book/tree/main/',
+            'https://github.com/raza-ahmed-khan360/hackathon-01-ai-book/tree/main/',
           // Use the custom docs sidebar for this project
           routeBasePath: '/docs',
           // Set the docs root to be the modules directory
@@ -94,7 +94,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/raza-ahmed-khan360/hackathon-01-ai-book',
           label: 'GitHub',
           position: 'right',
         },
